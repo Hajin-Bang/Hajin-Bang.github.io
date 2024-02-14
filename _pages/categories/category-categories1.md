@@ -1,9 +1,9 @@
 ---
-title: "Categories1"
+title: "react-query"
 layout: category
-permalink: /categories/categories1/
+permalink: /categories/react-query/
 author_profile: true
-taxonomy: Categories1
+taxonomy: react-query
 sidebar:
   nav: "categories"
 ---
