@@ -20,17 +20,15 @@ last_modified_at: 2024-02-22
 
 ## [요약] 브라우저의 렌더링 원리
 
-> #### 1. 서버로부터 응답받은 HTML, CSS 문서를 파싱하여, DOM, CSSOM을 생성한다. (Parsing)
+> **1. 서버로부터 응답받은 HTML, CSS 문서를 파싱하여, DOM, CSSOM을 생성한다. (Parsing)**
 >
-> #### 2. DOM, CSSOM을 결합하여 Render Tree를 생성한다. (Style)
+> **2. DOM, CSSOM을 결합하여 Render Tree를 생성한다. (Style)**
 >
-> #### 3. Render Tree에서 각 노드의 위치와 크기를 계산한다. (Layout)
+> **3. Render Tree에서 각 노드의 위치와 크기를 계산한다. (Layout)**
 >
-> #### 4. 계산된 값을 이용해 각 노드를 화면상의 실제 픽셀로 변환하고, 레이어를 만든다. (Paint)
+> **4. 계산된 값을 이용해 각 노드를 화면상의 실제 픽셀로 변환하고, 레이어를 만든다. (Paint)**
 >
-> #### 5. 화면에 HTML요소를 페인팅한다. (Composite)
->
-> #
+> **5. 화면에 HTML요소를 페인팅한다. (Composite)**
 
 ## 브라우저의 주요 구성 요소
 
@@ -91,7 +89,7 @@ reflow 과정이 끝난 후 Render Tree를 다시 그리는 작업을 말한다.
 
 <br/>
 
-### 참고자료
+**참고자료**
 
 - https://d2.naver.com/helloworld/59361
 - https://tecoble.techcourse.co.kr/post/2021-10-24-browser-rendering/
