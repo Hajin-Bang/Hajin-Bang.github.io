@@ -1,9 +1,9 @@
 ---
-title: "react-query"
+title: "React-query"
 layout: category
-permalink: /categories/react-query/
+permalink: /categories/React-query/
 author_profile: true
-taxonomy: react-query
+taxonomy: React-query
 sidebar:
   nav: "categories"
 ---

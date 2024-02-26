@@ -1,9 +1,9 @@
 ---
-title: "Network"
+title: "Algorithm"
 layout: category
-permalink: /categories/Network/
+permalink: /categories/Algorithm/
 author_profile: true
-taxonomy: Network
+taxonomy: Algorithm
 sidebar:
   nav: "categories"
 ---

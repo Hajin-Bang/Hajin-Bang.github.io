@@ -18,9 +18,11 @@ main:
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
-  - title: "react-query"
-    url: /categories/react-query/
+  - title: "Algorithm"
+    url: /categories/Algorithm/
+  - title: "Network"
+    url: /categories/Network/
   - title: "기술면접"
     url: /categories/기술면접/
-  - title: "network"
-    url: /categories/network/
+  - title: "React-query"
+    url: /categories/React-query/
