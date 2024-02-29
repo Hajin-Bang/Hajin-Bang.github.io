@@ -1,6 +1,6 @@
 ---
 title: "Recoil"
-excerpt: "Recoil은 React 상태 관리 라이브러리이다."
+excerpt: "React의 상태 관리 라이브러리"
 
 categories:
   - Recoil

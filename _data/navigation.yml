@@ -26,7 +26,7 @@ categories:
     url: /categories/기술면접/
   - title: "React"
     children:
-      - title: "React-query"
-        url: /categories/React-query/
+      - title: "React Query"
+        url: /categories/React Query/
       - title: "Recoil"
         url: /categories/Recoil/
