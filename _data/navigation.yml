@@ -24,5 +24,9 @@ categories:
     url: /categories/Network/
   - title: "기술면접"
     url: /categories/기술면접/
-  - title: "React-query"
-    url: /categories/React-query/
+  - title: "React"
+    children:
+      - title: "React-query"
+        url: /categories/React-query/
+      - title: "Recoil"
+        url: /categories/Recoil/
