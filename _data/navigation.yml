@@ -18,15 +18,17 @@ main:
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
-  - title: "Algorithm"
-    url: /categories/Algorithm/
-  - title: "Network"
-    url: /categories/Network/
-  - title: "기술면접"
-    url: /categories/기술면접/
+  - title: "JavaScript"
+    url: /categories/JavaScript/
   - title: "React"
     children:
       - title: "React Query"
         url: /categories/React Query/
       - title: "Recoil"
         url: /categories/Recoil/
+  - title: "Algorithm"
+    url: /categories/Algorithm/
+  - title: "Network"
+    url: /categories/Network/
+  - title: "기술면접"
+    url: /categories/기술면접/
