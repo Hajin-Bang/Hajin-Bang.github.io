@@ -20,6 +20,8 @@ main:
 categories:
   - title: "JavaScript"
     url: /categories/JavaScript/
+  - title: "CSS"
+    url: /categories/CSS/
   - title: "React"
     children:
       - title: "React Query"
