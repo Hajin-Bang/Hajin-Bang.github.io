@@ -7,7 +7,7 @@ categories:
 tags:
   - [HTML, 브라우저, Reflow, Repaint]
 
-permalink: /기술면접/Reflow와 Repaint/
+permalink: /기술면접/Reflow와-Repaint/
 
 toc: true
 toc_sticky: true
