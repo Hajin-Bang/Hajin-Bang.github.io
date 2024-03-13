@@ -12,8 +12,8 @@ permalink: /JavaScript/비동기-처리/
 toc: true
 toc_sticky: true
 
-date: 2024-03-12
-last_modified_at: 2024-03-12
+date: 2024-03-13
+last_modified_at: 2024-03-13
 ---
 
 # 비동기 처리
@@ -82,23 +82,28 @@ add(10).then((res) => {
 Promise의 실행자 함수 내에서 setTimeout을 사용하여 결과를 Resolve한다. Promise가 성공적으로 완료되면, `then()`에 등록된 콜백 함수가 호출되어 결과를 출력한다. <br/>
 이렇게 하면, 각 콜백 함수마다 에러 처리 로직을 구현해야하는 콜백 방식과 달리, Promise 한 곳에서 모든 에러를 캐치할 수 있다는 장점이 있다.
 
-```Js
-const createPromise = () => new Promise((resolve, reject) => {
-  // Promise 객체를 생성하고 반환한다
-  let a = 1 + 1
+```js
+const createPromise = () =>
+  new Promise((resolve, reject) => {
+    // Promise 객체를 생성하고 반환한다
+    let a = 1 + 1;
 
-  if (a == 2) {
-    resolve('success')
-  } else {
-    reject('failed')
-  }
-})
+    if (a == 2) {
+      resolve("success");
+    } else {
+      reject("failed");
+    }
+  });
 
-createPromise().then((message) => { // then 메서드를 통해 resolve의 결과인 'success'문자열을 받는다
-  console.log('This is in th then ' + message)
-}).catch((message) => { // catch 메서드를 통해 에러 메시지를 받는다
-  console.log('This is in the catch' + message)
-})
+createPromise()
+  .then((message) => {
+    // then 메서드를 통해 resolve의 결과인 'success'문자열을 받는다
+    console.log("This is in th then " + message);
+  })
+  .catch((message) => {
+    // catch 메서드를 통해 에러 메시지를 받는다
+    console.log("This is in the catch" + message);
+  });
 ```
 
 ### Promise chaining
