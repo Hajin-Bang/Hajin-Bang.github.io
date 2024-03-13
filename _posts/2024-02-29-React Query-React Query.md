@@ -13,7 +13,7 @@ toc: true
 toc_sticky: true
 
 date: 2024-02-29
-last_modified_at: 2024-02-29
+last_modified_at: 2024-03-14
 ---
 
 # React Query
@@ -22,7 +22,16 @@ React Query는 React에서 서버의 상태를 불러오고, 캐싱하며 지속
 
 ### 캐싱(Cashing)
 
+캐싱이란 특정 데이터의 복사본을 저장하여 이후 동일한 데이터의 재접근 속도를 높이는 것을 말한다. <br/>
 동일한 데이터에 대한 반복적인 비동기 데이터 호출을 방지하여 불필요한 데이터 호출을 줄여서 서버 부하를 막는다.
+
+## React Query를 사용하는 이유
+
+- 서버 상태 관리를 간소화한다.
+- 서버의 데이터를 자동으로 캐싱하고, 데이터 동기화를 통해 데이터를 최신 상태로 유지한다.
+- 데이터 업데이트 시 반영이 빠르다.
+- 페이징처리, 지연 로딩 데이터와 같은 성능을 최적화해준다.
+- 에러를 쉽게 관리할 수 있다.
 
 ## 초기 세팅
 
@@ -128,7 +137,26 @@ const { data } = useQuery(["todos", id], queryFn, {
 
 ## useMutation
 
-- 데이터를 `post`, `update`와 같이 수정 작업을 할 때 사용하는 Hook이다.
-- <br/>
+- 데이터를 `post`, `update`, `delete`와 같이 수정 작업을 할 때 사용하는 Hook이다.
+- 반환값은 useQuery와 동일하다. (api의 성공or실패 여부, 반환값을 포함하는 객체)
+- 첫번째 인자로 비동기 함수가 들어간다.
+  - 이 함수는 비동기 작업을 수행하고, promise를 반환해야 한다.
+
+```js
+import { useMutation } from "react-query";
+
+function App() {
+  const mutation = useMutation((newData) => {
+    return fetch("/data", {
+      method: "POST",
+      body: JSON.stringify(newData),
+    });
+  });
+}
+```
+
+<br/>
 
 **참고자료**
+
+-
