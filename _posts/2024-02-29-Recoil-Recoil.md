@@ -3,7 +3,7 @@ title: "Recoil"
 excerpt: "React의 상태 관리 라이브러리"
 
 categories:
-  - Recoil
+  - React
 tags:
   - [Recoil, React]
 
