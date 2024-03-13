@@ -7,7 +7,7 @@ categories:
 tags:
   - [Recoil, React]
 
-permalink: /Recoil/Recoil/
+permalink: /React/Recoil/
 
 toc: true
 toc_sticky: true
