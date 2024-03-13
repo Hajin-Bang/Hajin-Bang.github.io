@@ -1,6 +1,6 @@
 ---
 title: "RESTful API"
-excerpt: "RESTful API란?"
+excerpt: "REST를 기반으로 만들어진 API"
 
 categories:
   - Network

@@ -1,6 +1,6 @@
 ---
 title: "position"
-excerpt: "position이란?"
+excerpt: "문서 상에 요소를 배치하는 방법을 지정하는 속성"
 
 categories:
   - CSS

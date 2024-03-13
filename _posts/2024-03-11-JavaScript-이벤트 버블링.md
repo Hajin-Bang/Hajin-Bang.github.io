@@ -1,6 +1,6 @@
 ---
 title: "이벤트 전파(Event Propagation)"
-excerpt: "이벤트 전파란?"
+excerpt: "이벤트 버블링과 이벤트 캡쳐링"
 
 categories:
   - JavaScript
