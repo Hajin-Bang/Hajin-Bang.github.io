@@ -50,7 +50,7 @@ console.log(a + b);
 
 ## TypeScript의 동작 원리
 
-<img src="../assets/images/posts_img/TypeScript1.png" width="70%" height="100%"/>
+<img src="../assets/images/TypeScript1.png" width="70%" height="100%"/>
 
 - 다른 언어와 동일하게 TypeScript 코드를 AST(추상 문법 트리)로 변환한다.
 - AST를 보고 코드 상에 **타입 오류가 없는지 검사**한다.
