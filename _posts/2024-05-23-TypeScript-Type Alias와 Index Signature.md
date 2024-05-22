@@ -86,5 +86,4 @@ type NameId = {
 
 **참고자료**
 
-- https://ts.winterlood.com/43888ee0-9227-4a8d-994e-2336ee78bfcf
-- https://ts.winterlood.com/1c336fb6-1a90-4076-8de1-b23810a65163
+- https://ts.winterlood.com/156628c8-e779-4ea9-b40b-a77dd083e214
