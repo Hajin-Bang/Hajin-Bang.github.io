@@ -3,7 +3,7 @@ title: "[Lv2] 다음 큰 숫자"
 excerpt: "프로그래머스 Lv2 다음 큰 숫자"
 
 categories:
-  - JavaScript
+  - CodingTest
 tags:
   - [JavaScript, Programmers, 다음 큰 숫자]
 

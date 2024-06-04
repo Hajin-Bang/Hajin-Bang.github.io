@@ -3,7 +3,7 @@ title: "Coding Test"
 layout: category
 permalink: /categories/CodingTest/
 author_profile: true
-taxonomy: Coding Test
+taxonomy: CodingTest
 sidebar:
   nav: "categories"
 ---
