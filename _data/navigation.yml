@@ -26,9 +26,11 @@ categories:
     url: /categories/React/
   - title: "TypeScript"
     url: /categories/TypeScript/
-  - title: "Algorithm"
-    url: /categories/Algorithm/
   - title: "Network"
     url: /categories/Network/
+  - title: "Algorithm"
+    url: /categories/Algorithm/
+  - title: "Coding Test"
+  url: /categories/CodingTest/
   - title: "기술면접"
     url: /categories/기술면접/
